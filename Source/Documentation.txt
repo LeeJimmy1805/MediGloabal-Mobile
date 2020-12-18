@@ -1,0 +1,24 @@
+
+		Voici une petite documentation
+
+Installer les outils nécessaires :
+	Node.js
+	Un éditeur de texte
+	Emulateur (Bluestack, Nox, Memu)
+		-> faîtes les configurations nécessaires au développement
+
+Préparer le terrain :
+	Dans l'espace de travail :
+		-> npm install -g expo-cli
+		-> npm install
+		-> expo init [NOM_PROJET]
+		-> cd [NOM_PROJET]
+
+Pour ajouter des packages, veuillez s'il vous plaît :
+	npm install --save [nom_du_paquet]
+
+Lancer des tests :
+	npm start
+		-> après le chargement taper a (android)
+
+	npm run android (lance directement avec l'émulateur)
